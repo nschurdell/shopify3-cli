@@ -1,5 +1,19 @@
 # @shopify/cli-kit
 
+## 3.81.0
+
+### Minor Changes
+
+- 23d4b0b: Deprecated functions:
+  - consoleLog: should be replaced by outputResult (stdout) or outputInfo (stderr)
+  - consoleWarn: should be replaced by outputInfo (stderr)
+  - consoleError: should be replaced by outputInfo (stderr)
+  - renderText: should be replaced by outputResult (stdout) or outputInfo (stderr)
+
+### Patch Changes
+
+- 16406ae: Display richer error messages when apps are misconfigured
+
 ## 3.80.0
 
 ### Patch Changes
